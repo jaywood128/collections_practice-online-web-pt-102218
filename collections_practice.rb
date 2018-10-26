@@ -26,5 +26,5 @@ def sum_array(array)
   array.inject {|sum, n| sum + n}
 end
 def add_s(array)
-  array.each_with_index.collect {|word, i| word + "s"}.reject.with_index {|word, i| when i == 2 return word}
+  array.each_with_index.collect {|word, i| word + "s"}.reject.with_index {|word, i| i == 2}
 end
