@@ -28,6 +28,6 @@ end
 def add_s(array)
   array.each_with_index.collect {|word, i|
     if word != index[1] return "#{word} + s"
-    else 
+    else
       return word
 end
