@@ -32,10 +32,12 @@ end
 #     else
 #       word + "s"
 #     end
-# 
-# 
-# 
+#
+#
+#
 #    end
 # end
 
-array.each_with_index.collect{|word, i| i == 1 ? word : word + "s"} 
+def add_s(array)
+  array.each_with_index.collect{|word, i| i == 1 ? word : word + "s"}
+end
