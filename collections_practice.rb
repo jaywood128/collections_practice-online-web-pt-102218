@@ -7,4 +7,3 @@ end
 def sort_array_char_count(array)
   array.sort.length {|x, y|} x <=> y
 end
-  
