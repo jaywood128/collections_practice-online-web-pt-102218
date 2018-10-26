@@ -26,6 +26,6 @@ def sum_array(array)
   array.inject {|sum, n| sum + n}
 end
 def add_s(array)
-  array.each_with_index.collect {|word, i| 
-    if array[i] > 1 return "#{word} + s"  
+  array.each_with_index.collect {|word, i|
+    if array[i] > 1 return "#{word} + s"
 end
