@@ -22,3 +22,5 @@ end
 def sum_array(array)
   array.sum_array
 end
+def summ_array(array)
+  array.inject {|sum, n| sum + n}
