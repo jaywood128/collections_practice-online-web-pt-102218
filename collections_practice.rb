@@ -10,6 +10,6 @@ end
 def swap_elements(array)
   array[1] = "scott", array[3] = "ashley", array[0] = "blake"
 end
-def reverse_array
+def reverse_array(array)
   array.reverse
 end
