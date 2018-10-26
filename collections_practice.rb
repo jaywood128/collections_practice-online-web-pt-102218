@@ -16,6 +16,6 @@ end
 def kesha_maker(array)
   array[0], array[1], array[2] = "bl$ke", "as$ley", "sc$tt"
 end
-def find_a
+def find_a(array)
   array.include("a")
 end
