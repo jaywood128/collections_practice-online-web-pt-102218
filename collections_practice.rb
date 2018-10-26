@@ -32,5 +32,5 @@ def add_s(array)
 
     else
       return word
-end
 }
+end
