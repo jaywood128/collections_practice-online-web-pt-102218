@@ -8,8 +8,10 @@ def sort_array_char_count(array)
   array.sort {|x, y| x.length <=> y.length }
 end
 def swap_elements(array)
-  array[1] = "scott", array[3] = "ashley", array[0] = "blake"
+  array[1]
 end
 def reverse_array(array)
   array.reverse
 end
+def kesha_maker(array)
+  
